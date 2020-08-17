@@ -18,7 +18,7 @@ x = [0, 1, 1, 0]
 y = [0, 0, 1, 1]
 z = [0, 0, 0, 0]
 
-ax.scatter(x, y, z, marker='o');
+ax.scatter(x, y, z, marker='o',color='b');
 
 ax.set_xlabel('X Label')
 ax.set_ylabel('Y Label')
@@ -29,8 +29,7 @@ y.append(0)
 z.append(0)
 
 
-ax.plot(x,y,z)
+ax.plot(x,y,z, color='r')
 
 
-ax.plot(x,y)
 plt.show()
